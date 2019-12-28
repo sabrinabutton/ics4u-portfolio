@@ -1,0 +1,9 @@
+{
+  "short_name": "ICS4U Portfolio",
+  "name": "Sabrina Button's ICS4U Portfolio 2019",
+  "author": "Sabrina Button",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
