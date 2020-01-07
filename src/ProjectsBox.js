@@ -11,8 +11,11 @@ function ProjectBox() {
   return (
     <div>
         <Box>
-            <Project title="test" image="https://arbordayblog.org/wp-content/uploads/2018/06/oak-tree-sunset-iStock-477164218-1080x608.jpg" link="#" desc="A test project to test the project props." ></Project>
-            <Project title="test2" image="http://www.melanniesvobodasnd.org/wp-content/uploads/2015/06/Oak-tree-in-field-007.jpg" link="#" desc="A second test project to test the flex property of the projectbox."></Project>
+            <Project title="FreeCodeCamp Certifications" image="" link="https://www.freecodecamp.org/sabrinabutton" 
+            desc="I completed four Certifications on FreeCodeCamp: Responsive Web Design, Javascript Algorithms and Data Structures, 
+            Front End Libraries and Data Visualization." ></Project>
+            <Project title="Khan Acadmey" image="" link="https://www.khanacademy.org/profile/sabrinabutton" 
+            desc="On Khan Academy, I have completed: AP Computer Science Principles, Computer Science Algorithms, Natural Simulations, HTML/CSS, Intro to JS, JS Games, HTML/JS and Intro to SQL"></Project>
         </Box>
     </div>
   );
