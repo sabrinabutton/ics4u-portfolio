@@ -1,17 +1,16 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar.js';
 import Header from './Header.js';
 import ProjectsBox from './ProjectsBox.js';
 
-function App() {
+function ProjectsPage() {
   return (
     <div className="App">
-        <Navbar></Navbar>
-        <Header></Header>
+        
+        <Header title="My Projects" desc="A collection of my projects from ICS4U"></Header>
         <ProjectsBox></ProjectsBox>
     </div>
   );
 }
 
-export default App;
+export default ProjectsPage;

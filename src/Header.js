@@ -14,12 +14,11 @@ color: white;
 text-shadow:    4px 4px 8px #009900;
 `;
 
-function Header() {
+function Header(props) {
   return (
     <div>
-            <Title>My Projects</Title>
-            <Desc>This website is a collection of my projects from ICS4U 2019. 
-                It includes my work from HackEd, FreeCodeCamp, KhanAcademy and Coding Train.</Desc>
+            <Title>{props.title}</Title>
+  <Desc>{props.desc}</Desc>
     </div>
   );
 }
