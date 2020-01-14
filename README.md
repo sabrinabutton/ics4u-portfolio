@@ -7,3 +7,12 @@ The portfolio can be accessed [here](https://sabrinabutton.github.io/ics4u-portf
 ## Notes
 This portfolio was created December 2019 using React, HTML, JS and CSS along with various libraries.
 Projects still need to be added to the site as the current version is simply a blank template I made to make the process quicker later-on.
+
+## Contents
+1. About Me
+2. Top Ten Modules
+3. General Projects
+4. Interview Q & A
+
+## Interview Answers
+TBD.
