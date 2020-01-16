@@ -8,6 +8,7 @@ const Box = styled.div`
     border-radius: 8px;
     width: 50%;
     margin: 3em auto;
+    box-shadow:0px 0px 10px #A3618D; 
 `;
 
 const Title = styled.h1`
@@ -22,7 +23,7 @@ const Desc = styled.div`
     font-weight: 200;
     font-size: 1em;
     color: black;
-    margin:  1em auto;
+    margin:  1em ;
 `;
 
 const Screenshot = styled.img`
@@ -33,7 +34,7 @@ const Screenshot = styled.img`
 `;
 
 const Link = styled(Desc)`
-    color: #99ff99;
+    color:  #A3618D;
     margin:  1em auto;
     :hover{
         cursor: pointer;

@@ -4,14 +4,15 @@ import styled from "styled-components";
 const Title = styled.h1`
     font-weight: 200;
     font-size: 2em;
-    color: white;
-    text-shadow: 4px 4px 8px #009900;
+    color: #A3618D;
+
 `;
 const Desc = styled.p`
+margin: 1em;
 font-weight: 200;
 font-size: 1em;
-color: white;
-text-shadow:    4px 4px 8px #009900;
+color:#A3618D;
+
 `;
 
 function Header(props) {

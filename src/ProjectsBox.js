@@ -7,15 +7,13 @@ const Box = styled.div`
     flex-direction: column;
 `;
 
-function ProjectBox() {
+function ProjectBox(props) {
   return (
     <div>
         <Box>
-            <Project title="FreeCodeCamp Certifications" image="" link="https://www.freecodecamp.org/sabrinabutton" 
-            desc="I completed four Certifications on FreeCodeCamp: Responsive Web Design, Javascript Algorithms and Data Structures, 
-            Front End Libraries and Data Visualization." ></Project>
-            <Project title="Khan Acadmey" image="" link="https://www.khanacademy.org/profile/sabrinabutton" 
-            desc="On Khan Academy, I have completed: AP Computer Science Principles, Computer Science Algorithms, Natural Simulations, HTML/CSS, Intro to JS, JS Games, HTML/JS and Intro to SQL"></Project>
+          {props.projects.map(project => (
+           <Project title={project.title} desc={project.desc} image={project.image} link={project.link} />
+          ))}
         </Box>
     </div>
   );

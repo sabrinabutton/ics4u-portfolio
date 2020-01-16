@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar.js';
 import Header from './Header.js';
 import ProjectsBox from './ProjectsBox.js';
+import {TOP_TEN} from './data';
 
 function TopTenPage() {
   return (
     <div className="App">
-        <Navbar></Navbar>
-        <Header title="My Projects" desc="A collection of my projects from ICS4U"></Header>
-        <ProjectsBox></ProjectsBox>
+        <Header title="My Top Ten" desc="Most important modules from ICS4U 2019. This includes work from Free Code Camp & Khan Academy."></Header>
+        <ProjectsBox projects={TOP_TEN}/>
     </div>
   );
 }

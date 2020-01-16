@@ -6,8 +6,9 @@ import Navbar from './Navbar.js';
 import * as serviceWorker from './serviceWorker';
 
 //render react app
-ReactDOM.render(<ProjectsPage />, document.getElementById('root'));
 ReactDOM.render(<Navbar/>, document.getElementById('navbar'));
+ReactDOM.render(<ProjectsPage />, document.getElementById('root'));
+
 
 
 serviceWorker.unregister();
