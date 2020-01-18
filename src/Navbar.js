@@ -1,45 +1,44 @@
 import React, { useState } from "react";
 import './App.css';
 import styled from "styled-components";
-import ghLogo from "./ghLogo.png";
+import ghLogo from "./ghLogoA.png";
 import ReactDOM from 'react-dom';
 import './index.css';
+import {THEME_COLOR} from './constants.js';
 import Menu from './Menu';
 
 const Bar = styled.div`
-    background: #ffffff;
+    background: ${THEME_COLOR};
     padding-left: 1em;
     padding-right: 1em;
     width: 100%;
-    height: 8%;
+    height: 10%;
     display: flex;
     text-align: center;
-    box-shadow:10px 0px 10px #A3618D; 
+    position: fixed;
+    z-index:99;
 `;
 
 const Title = styled.h1`
     font-weight: 200;
     font-size: 2em;
-    color: #A3618D;
+    color:#ffffff ;
 `;
 
 const LogoLink = styled.img`
     padding: .5em;
     margin: 1em;
-    right: 0;
 `;
-
+ 
 const MenuButton = styled.div`
   padding: .5em;
   margin: 1em;
-  right: 0;
+  right: 2em;
   position: absolute;
-  width: 2em;
-  height: 2em;
   border-radius: 8px;
-  background-color: white;
-  box-shadow:0px 0px 10px #A3618D; 
+  background-color: ${THEME_COLOR};
   vertical-align: middle;
+  color:#ffffff ;
   :hover{
     cursor: pointer;
   }

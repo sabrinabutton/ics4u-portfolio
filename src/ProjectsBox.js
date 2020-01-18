@@ -11,8 +11,8 @@ function ProjectBox(props) {
   return (
     <div>
         <Box>
-          {props.projects.map(project => (
-           <Project title={project.title} desc={project.desc} image={project.image} link={project.link} />
+          {props.projects.map((project, i) => (
+           <Project title={project.title} desc={project.desc} image={project.image} link={project.link} key={i}/>
           ))}
         </Box>
     </div>

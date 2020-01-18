@@ -1,28 +1,27 @@
 import React from 'react';
 import styled from "styled-components";
+import {DARK_TEXT_COLOR, THEME_COLOR} from './constants';
 
 const Box = styled.div`
     display: flex;
     flex-direction: column;
-    background:white;
+    background:  white;
     border-radius: 8px;
     width: 50%;
     margin: 3em auto;
-    box-shadow:0px 0px 10px #A3618D; 
 `;
 
 const Title = styled.h1`
     font-weight: 250;
     font-size: 2em;
-    color: black;
+    color: ${DARK_TEXT_COLOR};
     font-style: italic;
-    
 `;
 
 const Desc = styled.div`
     font-weight: 200;
     font-size: 1em;
-    color: black;
+    color:  ${DARK_TEXT_COLOR};
     margin:  1em ;
 `;
 
@@ -33,8 +32,8 @@ const Screenshot = styled.img`
     height: auto;
 `;
 
-const Link = styled(Desc)`
-    color:  #A3618D;
+const Link = styled.a`
+    color:  ${DARK_TEXT_COLOR};
     margin:  1em auto;
     :hover{
         cursor: pointer;
@@ -46,9 +45,10 @@ function Project(props) {
     <div>
         <Box>
             <Title>{props.title}</Title>
-            <Screenshot src={props.image} alt="Screenshot"></Screenshot>
+            {props.image &&
+                 <Screenshot src={props.image} alt="Screenshot"></Screenshot>}
             <Desc>{props.desc}</Desc>
-            <Link>{props.link}</Link>
+            <Link href={props.link}>{props.link}</Link>
         </Box>
     </div>
   );

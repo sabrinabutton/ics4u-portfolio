@@ -4,17 +4,20 @@ import ProjectsPage from './ProjectsPage';
 import AboutMePage from './AboutMePage';
 import TopTen from './TopTen';
 import ReactDOM from 'react-dom';
+import {THEME_COLOR} from './constants.js';
 
 const Container = styled.div`
   width: 20%;
   right: 0;
-  position: absolute;
+  margin-right: 0px;
+  position: fixed;
   background: white;
-  box-shadow: 0px 0px 10px #A3618D
   border-radius: 8px;
   height: auto;
   display: flex;
   flex-direction: column;
+  top: 10%;
+  z-index: 99;
 `
 
 const Tab = styled.div`
@@ -22,10 +25,11 @@ const Tab = styled.div`
   text-align: center;
   vertical-align: center;
   margin: 1em;
+  margin-right: 0px;
   padding: 1em;
-  background: white;
-  box-shadow: 0px 0px 5px #A3618D
-  border-radius: 8px;
+  background: ${THEME_COLOR};
+  color: white;
+  border-radius:  8px;
   height: 1em;
   vertical-align: middle;
   :hover{
