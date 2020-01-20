@@ -5,6 +5,11 @@ import styled from "styled-components";
 const Box = styled.div`
     display: flex;
     flex-direction: column;
+    position: static;
+    width: 100%;
+    height:auto;
+    background: white;
+    z-index:2;
 `;
 
 function ProjectBox(props) {
