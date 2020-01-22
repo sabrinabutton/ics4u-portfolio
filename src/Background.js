@@ -20,7 +20,6 @@ const BackgroundOverlay = styled.div`
 function Background(){
     return(
         <div>
-           
             <BackgroundOverlay />
         </div>
     )

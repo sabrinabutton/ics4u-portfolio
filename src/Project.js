@@ -48,7 +48,7 @@ function Project(props) {
             {props.image &&
                  <Screenshot src={props.image} alt="Screenshot"></Screenshot>}
             <Desc>{props.desc}</Desc>
-            <Link href={props.link}>{props.link}</Link>
+            <Link href={props.link}>{props.link_title}</Link>
         </Box>
     </div>
   );

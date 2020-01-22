@@ -17,7 +17,7 @@ function ProjectBox(props) {
     <div>
         <Box>
           {props.projects.map((project, i) => (
-           <Project title={project.title} desc={project.desc} image={project.image} link={project.link} key={i}/>
+           <Project title={project.title} desc={project.desc} image={project.image} link={project.link} link_title={project.link_title} key={i}/>
           ))}
         </Box>
     </div>
