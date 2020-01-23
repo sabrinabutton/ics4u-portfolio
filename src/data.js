@@ -10,11 +10,17 @@ export const PROJECTS = [
         link_title: "Oscillating Rhodonea Repository on Github"
     },
     {
-        title: "Alternate Coding Challenge Refactoring",
+        title: "Sparkling Metaballs (Featured Alternate Coding Challenge Refactoring)",
         image: metaballs,
         desc: "This is an algorithm that produces n-dimesional objects by changing the color of the ball as you leave the core. I changed the algorithm so that it uses RGB instead of HSL to calculate this color. I also added a random function to multiply each factor in the square root function that finds the denominator that later allows us to calculate the 'sum'. This makes the metaballs seem sparkly.",
         link: "https://github.com/sabrinabutton/ics4u-coding-challenges/tree/master/sparklingMetaballs",
-        link_title: "Folder on Github"
+        link_title: "Sparkling Metaballs Folder on Github"
+    },
+    {
+        title: "More Alternate Coding Challenge Refactorings",
+        desc: "Below is a link to a repository containing all of my code from followed in class coding challenges. Some code have substantial changes from the original that makes the program unique, whereas others weren't changed in a significant way.",
+        link: "https://github.com/sabrinabutton/ics4u-coding-challenges/tree/master",
+        link_title: "ICS4U Coding Challenges Repository on Github"
     }
 ];
 
