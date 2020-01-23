@@ -4,7 +4,7 @@ This repository contains a portfolio of my projects from ICS4U 2019. The portfol
 ## Portfolio Access
 The portfolio can be accessed [here](https://sabrinabutton.github.io/ics4u-portfolio/). This portfolio was created December 2019 and January 2020 using React, HTML, JS and CSS along with various libraries.
 
-## Web Contents
+### Contents
 1. About Me
 2. Top Ten Modules
 3. Bonus Projects
