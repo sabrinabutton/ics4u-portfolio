@@ -1,6 +1,17 @@
 import oscRho from "./osc-rho.PNG";
 import metaballs from "./metaballs.JPG";
 
+export const ABT_DATA = [
+    {
+        title: "Future Intentions",
+        desc: "Though I do not plan to go into web development in the future, the things I have learned in this course will be very helpful towards my professional success. Via the tools learned in this course, I was able to develop a personal website (yes, this) and in the future will be able develop further web apps for any future purposes. Additonally, the logical skills learned can be easily translated into not only other programming languages but into other science and math fields. As I plan to go into engineering, having these logical skills and ability to advertise my work will be greatly helpful in advancing my career."
+    },
+    {
+        title: "Languages & Tools",
+        desc: "I know the following languages: JS, HTML, CSS, C++, Smalltalk, Batchscript and Actionscript \nI am firmiliar with the following tools: Azure, MongoDB, React, Bootstrap, p5.js, jQuery, Arduino, Microbit, Node.js"
+    }
+]
+
 export const PROJECTS = [
     {
         title: "Oscillating Rhodonea",
