@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from './Header.js';
+import {ABT_DATA} from './data';
+import ProjectBox from './ProjectsBox.js';
 
 function AboutMePage() {
   return (
@@ -9,6 +11,7 @@ function AboutMePage() {
         taking ICS4U this semester. Throughout this course, I have learned a multitude of programming concepts, including natural simulations,
         javascript libraries, and more. I have made note of the top ten things I learned on my 'Top Ten' page, 
         and have also made some interesting projects along the way, which can be viewed on my 'Bonus Projects' page."></Header>
+        <ProjectBox projects={ABT_DATA} />
     </div>
   );
 }
