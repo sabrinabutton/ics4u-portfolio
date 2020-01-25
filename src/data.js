@@ -4,11 +4,11 @@ import metaballs from "./metaballs.JPG";
 export const ABT_DATA = [
     {
         title: "Future Intentions",
-        desc: "Though I do not plan to go into web development in the future, the things I have learned in this course will be very helpful towards my professional success. Via the tools learned in this course, I was able to develop a personal website (yes, this) and in the future will be able develop further web apps for any future purposes. Additonally, the logical skills learned can be easily translated into not only other programming languages but into other science and math fields. As I plan to go into engineering, having these logical skills and ability to advertise my work will be greatly helpful in advancing my career."
+        desc: "Though I do not plan to go into web development in the future, the things I have learned in this course will be very helpful towards my professional success. Via the tools learned in this course, I was able to develop a personal website (yes, this) and in the future will be able develop further web apps for any future purposes. Additonally, the logical skills learned, such as algorithm building and computing principles can be easily translated into not only other programming languages but into other science and math fields. As I plan to go into engineering, having these logical skills and ability to advertise my work will be greatly helpful in advancing my career."
     },
     {
         title: "Languages & Tools",
-        desc: "I know the following languages: JS, HTML, CSS, C++, Smalltalk, Batchscript and Actionscript \nI am firmiliar with the following tools: Azure, MongoDB, React, Bootstrap, p5.js, jQuery, Arduino, Microbit, Node.js"
+        desc: "I know the following languages: JS, HTML, CSS, C++, Smalltalk, Batchscript and Actionscript. I am firmiliar with the following tools: Azure, MongoDB, React, Bootstrap, p5.js, jQuery, Arduino, Microbit, Node.js"
     }
 ]
 
@@ -29,7 +29,7 @@ export const PROJECTS = [
     },
     {
         title: "More Alternate Coding Challenge Refactorings",
-        desc: "Below is a link to a repository containing all of my code from followed in class coding challenges. Some code have substantial changes from the original that makes the program unique, whereas others weren't changed in a significant way.",
+        desc: "Below is a link to a repository containing all of my code from followed in-class coding challenges. Some code has substantial changes from the original which makes the program unique, whereas others weren't changed in a significant way.",
         link: "https://github.com/sabrinabutton/ics4u-coding-challenges/tree/master",
         link_title: "ICS4U Coding Challenges Repository on Github"
     }
@@ -76,7 +76,8 @@ export const TOP_TEN = [
         title: "Responsive Web Design",
         desc: "This module gave me more in-depth experience with CSS and HTML attributes as well as how to combine the two via classes, ids, names and element types. It showed me best practices for both styling and elements by providing me with exact information on what attributes do what and how to cleanly style a page the way you want, both from code and visual perspectives. In the future, I will try to refer back to these clean methods when programming, and in general pay attention to the concept of best practices.",
         link: "https://codepen.io/sabrinabutton/pen/PooVYaJ",
-        link_title: "Pablo Picasso Tribute Page"
+        link_title: "Pablo Picasso Tribute Page",
+        embed: "https://codepen.io/sabrinabutton/embed/PooVYaJ?height=265&theme-id=dark&default-tab=html,result"
     },
     {
         title: "Javascript Algorithms and Data Structures",
@@ -88,7 +89,8 @@ export const TOP_TEN = [
         title: "Front End Libraries",
         desc: "In this module, I learned Bootstrap and SASS for styling, extended my knowledge of React and jQuery, and learned how to implement Redux stores into my React apps (which proved very useful from the perspective of the React connoisseur that I am). Redux makes your code more reusable and efficient, as it allows you to create a store which manages the state of the entirety of the app, where each component can use only what it needs. It allowed me to realize that there are always ways to improve your apps and improve libraries (via open source) that already exist - and that libraries are really helpful! For example, styled-components, one of my go-to libraries, is an extension of CSS that allows you to create custom React elements that are pre-styled. Something like this, even a simple extension of what I already know, makes my workflow a lot more enjoyable. In the future, I will use libraries in order to get things done in the best way possible - which could include using styling libraries, DOM libraries and larger-scale libraries like React, Redux and Vue (and of course some small extensions onto these)!",
         link: "https://codepen.io/sabrinabutton/full/WNbLMBQ",
-        link_title: "Markdown Previewer"
+        link_title: "Markdown Previewer",
+        embed: "https://codepen.io/sabrinabutton/embed/WNbLMBQ?height=265&theme-id=default&default-tab=js,result" 
     },
     {
         title: "Intro to JS",

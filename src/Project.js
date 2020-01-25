@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import Iframe from 'react-iframe';
 import {DARK_TEXT_COLOR} from './constants';
 
 const Box = styled.div`
@@ -40,6 +41,11 @@ const Link = styled.a`
     }
 `;
 
+const Embed = styled(Iframe)`
+    width: 90%;
+    margin: 1em auto;
+`
+
 function Project(props) {
   return (
     <div>
@@ -50,6 +56,11 @@ function Project(props) {
             <Desc>{props.desc}</Desc>
             <Link href={props.link}>{props.link_title}</Link>
         </Box>
+        {
+            props.embed ? <Embed scrolling="no" height="500" title="Markdown Previewer" url={props.embed}></Embed> : console.log(props.embed)
+        }
+        
+
     </div>
   );
 }
