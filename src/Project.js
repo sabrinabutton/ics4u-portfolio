@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import {DARK_TEXT_COLOR, THEME_COLOR} from './constants';
+import {DARK_TEXT_COLOR} from './constants';
 
 const Box = styled.div`
     display: flex;
@@ -48,7 +48,7 @@ function Project(props) {
             {props.image &&
                  <Screenshot src={props.image} alt="Screenshot"></Screenshot>}
             <Desc>{props.desc}</Desc>
-            <Link href={props.link}>{props.link}</Link>
+            <Link href={props.link}>{props.link_title}</Link>
         </Box>
     </div>
   );

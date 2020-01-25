@@ -11,8 +11,8 @@ const Container = styled.div`
   right: 0;
   margin-right: 0px;
   position: fixed;
-  background: white;
-  border-radius: 8px;
+  background: ${THEME_COLOR};
+  border-radius:  0px 0px 8px 8px ;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -27,8 +27,8 @@ const Tab = styled.div`
   margin: 1em;
   margin-right: 0px;
   padding: 1em;
-  background: ${THEME_COLOR};
-  color: white;
+  background: white;
+  color: ${THEME_COLOR};
   border-radius:  8px;
   height: 1em;
   vertical-align: middle;

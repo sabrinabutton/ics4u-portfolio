@@ -1,34 +1,34 @@
 import React from 'react';
 import styled from "styled-components";
-import {DARK_TEXT_COLOR} from './constants';
+
+const Wrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 3em auto;
+    padding: 1em;
+`
 
 const Title = styled.h1`
     font-weight:400;
     font-size: 2em;
-    color:  ${DARK_TEXT_COLOR};
-
+    color:  white;
 `;
 const Desc = styled.p`
     margin: 1em;
     font-weight: 200;
     font-size: 1em;
-    color: ${DARK_TEXT_COLOR};
+
+    color: white;
 `;
-const Divider = styled.div`
-    width: 30%;
-    height: 1px;
-    margin: 1em;
-    background-color: ${DARK_TEXT_COLOR};
-    position: absolute;
-    left: 34%;
-`
 
 function Header(props) {
   return (
     <div>
-           <Title>{props.title}</Title> 
+         <Wrapper><Title>{props.title}</Title> 
             <Desc>{props.desc}</Desc>
-            <Divider />
+          </Wrapper>
+           
     </div>
   );
 }
