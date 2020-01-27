@@ -9,7 +9,7 @@ The portfolio can be accessed [here](https://sabrinabutton.github.io/ics4u-portf
 2. Top Ten Modules
 3. Bonus Projects
 
-## Interview Answers
+## Interview Questions & Answers
 ### 1. What does it mean to have good programming practices?
 There is no absolute universal method of code that is regarded as “good-practice”, but rather there are small things one can do in order to make their code objectively better. A good rule of thumb is that good code is simple code. It is arguable that any solid, redistributable open source project should have code that has the potential to be understood by another programmer, in that it is concise, well documented and effective to its goals. Thus, the most important thing, in my personal opinion, in regards to having good programming practices, is that code should be able to be universally understood. Code should be clean: it is hard to work with messy code just as it could be difficult to work in a messy office. With clean coding, which can be achieved via paying attention your programming practices, code can be updated and refined and overall is likely more logical.
 
