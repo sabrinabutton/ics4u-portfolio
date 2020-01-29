@@ -5,9 +5,9 @@ This repository contains a portfolio of my projects from ICS4U 2019. The portfol
 The portfolio can be accessed [here](https://sabrinabutton.github.io/ics4u-portfolio/). This portfolio was created December 2019 and January 2020 using React, HTML, JS and CSS along with various libraries.
 
 ### Contents
-1. About Me
-2. Top Ten Modules
-3. Bonus Projects
+1. **About Me:** This page details who I am, what I know, and what my intentions are in regards to computer science.
+2. **Top Ten Modules:** This page contains information about the top ten modules I completed throughout ICS4U and a few projects to show off what I've learned.
+3. **Bonus Projects:** This page shows off the projects I did pertaining to the in-class coding-challenges we did this semeseter, including my object-oriented refactor from my own coding challenge and some simpler refactors from the challenges taught by other students.
 
 ## Interview Questions & Answers
 ### 1. What does it mean to have good programming practices?
