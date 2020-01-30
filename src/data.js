@@ -1,5 +1,11 @@
 import oscRho from "./osc-rho.PNG";
 import metaballs from "./metaballs.JPG";
+import binary from "./binary.PNG";
+import flower from "./flower.PNG";
+import html from "./html.PNG";
+import jquery from "./jquery.PNG";
+import oscillations from "./oscillations.PNG";
+import sql from "./sql.PNG";
 
 export const ABT_DATA = [
     {
@@ -40,13 +46,15 @@ export const TOP_TEN = [
         title: "Natural Simulations",
         desc:"The Natural Simulations module on Khan Academy allowed me to realize how computer science is so greatly connected to math, and how nature can be simulated via mathematical functions. Previously, I had coded in a manner that was majoritively logic-based. The use of equations in the course, in combination with the logic I had already mastered, opened me up to a whole new way of learning. I now can understand the crossroads between logic and math, and further how an algorithm uses the two to accomplish something. I will continue to use this combination of concepts in my learning going forward, in both mathematics and sciences.",
         link: "https://www.khanacademy.org/computer-programming/spin-off-of-project-creature-colonies/5299226868154368",
-        link_title: "Featured Project: Creature Colonies"
+        link_title: "Featured Project: Creature Colonies",
+        image: oscillations
     },
     {
         title: "Algorithms",
         desc: "This course allowed me to realize how everything we do in life is controlled by an algorithm: a set of instructions. In further learning, I will apply this concept of “a set of steps” to my work in a conscious manner, in order to get things done in an efficient and sensical way. Previous to taking this KA course, I had some knowledge of algorithms, specifically the breadth-first-search, but did not have a super solid grasp of the idea behind it. This course not only broadened the number of standard algorithms I know of, but also made me more comfortable with the idea and logical flow of algorithms, which I will now be able to implement into my own unique code. ",
         link: "https://www.khanacademy.org/computer-science/spin-off-of-project-recursive-art/6611546316439552",
-        link_title: "Featured Project: Recursive Art"
+        link_title: "Featured Project: Recursive Art",
+        image: binary
     },
     {
         title: "AP Computer Science Principles",
@@ -58,19 +66,22 @@ export const TOP_TEN = [
         title: "Intro to HTML/CSS",
         desc: "Though I already knew both HTML and CSS, this module helped me to learn important little things that are commonly overlooked by novice programmers. Most notably, these things were best practices, specific explanations of CSS properties, website hosting and HTML validation. In the future, I will pay attention to HTML and CSS best practices, using the shortest yet effective methods of styling and inserting elements (ex. Using a flexbox rather than struggling with dozens of elements with random height’s and margins that just ‘works’). I will also be better informed on website hosting, which will be quite useful as I’m currently looking into building myself a professional personal website. I’ll also make a note of the tools available to me to check validation of my HTML.",
         link: "https://www.khanacademy.org/computer-programming/spin-off-of-project-recipe-book/5656567771791360",
-        link_title: "Featured Project: Recipe Book"
+        link_title: "Featured Project: Recipe Book",
+        image: html
     },
     {
         title: "SQL",
         desc: "This module taught me the importance and value of storage and data in programming. I learned how to store, query and edit data in a SQL database, and through various projects was able to apply this knowledge to a variety of different subject areas with different uses. Data is essential for any functional large-scale web environment for efficiency, improvement and user-experience. In the future, I will implement the use of a database where it would improve my workflow and website. For example, this website (yes, this one you’re reading this on right now), is using a makeshift database to store paragraphs like this one (yes, this one), so I didn’t have to hard-code all the paragraphs and links and such. Of course, this is just a file - but a similar concept (the importance of data). I have, however, implemented an actual database since completing this module. For my app Flashtime that I made for HackEd, I created a database using MongoDB in order to allow users to store their flashcards for later. The use of a database definitely made that project less complex and more user-friendly and will allow for such in future projects.",
         link: "https://www.khanacademy.org/computer-programming/spin-off-of-project-app-impersonator/5737793484455936",
-        link_title: "Featured Project: App Impersonator"
+        link_title: "Featured Project: App Impersonator",
+        image: sql
     },
     {
         title: "jQuery",
         desc: "jQuery saves a lot of code. And saving a lot of code saves a lot of time. This library specifically allows you to more easily access the DOM, style components, and animate, just to name a few possibilities. In this module, I learned jQuery, but ultimately also learned the value of using external libraries. In the future, though I may not use jQuery (I’m not the biggest fan), I will hold onto the idea concept that libraries are not a ‘shortcut’, but rather a way to get things done better, and will execute this in my code. Or, if I’m being literal, I can translate this into my other studies and hold onto the idea that it is never a bad thing to reference or use other works within your own to make them better.",
         link: "https://www.khanacademy.org/computer-programming/spin-off-of-project-word-game/5468330096820224",
-        link_title: "Featured Project: Word Game"
+        link_title: "Featured Project: Word Game",
+        image: jquery
     },
     {
         title: "Responsive Web Design",
@@ -96,6 +107,7 @@ export const TOP_TEN = [
         title: "Intro to JS",
         desc: "Though I was previously knowledgeable of Javascript syntax and logic, this course provided me with reinforcement of what I already knew and allowed me to adopt and explore best practices within Javascript. This includes using Object.prototype functions (instead of this.functionName = function, which, in some cases, is still useful), when to use certain logic (ternary, switch, loops) and how to work with p5.js to visualize JS. In the future, I will be mindful of Javascript best practices and acknowledge that p5.js and other graphics libraries are always an option and can make programming much easier and more efficient in some scenarios. To be broader, I learned that it is A) important to do things in an efficient and readable manner and B) that I should take advantage of the tools available to me.",
         link: "https://www.khanacademy.org/computer-programming/spin-off-of-project-bookshelf/5827088498524160",
-        link_title: "Featured Project: Bookshelf"
+        link_title: "Featured Project: Bookshelf",
+        image: flower
     }
 ];
